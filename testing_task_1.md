@@ -14,7 +14,9 @@ class CardGame
     end
   end
 end
-# 'checkforAce' should be check_for_ace. There should be a == instead of =
+# 'checkforAce' should be check_for_ace. There should be a == instead of =.
+# there is one to many ends.
+
 
   dif highest_card(card1 card2)
     if card1.value > card2.value
@@ -27,6 +29,8 @@ end
 # This should say def not 'dif'.
 # Should be a comma between card1 and card2
 # 'return card' should be return card1
+#There is one to many ends
+
 
 def self.cards_total(cards)
   total
@@ -35,8 +39,7 @@ def self.cards_total(cards)
     return "You have a total of" + total
   end
 end
-
-
 # the 'total' in the second line needs =0 after it.
+#The return needs to be between the two ends
 
 end

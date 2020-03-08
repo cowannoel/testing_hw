@@ -40,6 +40,7 @@ def self.cards_total(cards)
   end
 end
 # the 'total' in the second line needs =0 after it.
+#The total at the end should be string interpolation.
 #The return needs to be between the two ends
 
 end
